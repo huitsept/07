@@ -4,17 +4,14 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
+	int i;
 	
-	int flag = 1;
-	int y;
-	while(flag !=0)
-	{ //y의 범위가 여기로 한정 
-
-		y=3;
-		flag=0; 
-	}
-	
-	y=4;
+	for (i=0;i<5;i++)
+	{
+		int temp=1;
+		printf("temp = %i\n", temp);
+		temp++;
+	 } 
 	
 	return 0;
 }
